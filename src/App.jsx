@@ -27,14 +27,17 @@ const theme = createMuiTheme({
       dark:'#b19725',
       contrastText:'#339ba5'
     }
-  }
+  },
+  typography: {
+    useNextVariants:true,
+  },
 });
 
 class App extends Component {
-  constructor(props) {
-    super(props)
+  // constructor(props) {
+  //   super(props)
 
-  }
+  // }
 
   componentWillMount() {
 
