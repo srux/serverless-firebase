@@ -1,0 +1,24 @@
+@import "_reset.scss";
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+$lighttext:#fff;
+
+.container {
+    margin:8em auto 0 auto;
+    max-width: 1200px;
+}
+
+.nav-container {
+    margin: auto;
+}
+
+.nav-button {
+
+    .MuiButton-label {
+        color:$lighttext;
+      }
+}
+
