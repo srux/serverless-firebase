@@ -16,10 +16,12 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import EditIcon from '@material-ui/icons/Edit';
 
 const styles = (theme) => ({
-  ...theme,
-  // button: {
-  //   float: 'right'
-  // }
+  ...theme.layout,
+    buttonLayout: {
+      button: {
+        float: 'right'
+      }
+    }
 });
 
 class EditDetails extends Component {

@@ -16,20 +16,22 @@ import { connect } from 'react-redux';
 import { postScream, clearErrors } from '../../redux/actions/dataActions';
 
 const styles = (theme) => ({
-  // ...theme,
-  // submitButton: {
-  //   position: 'relative',
-  //   float: 'right',
-  //   marginTop: 10
-  // },
-  // progressSpinner: {
-  //   position: 'absolute'
-  // },
-  // closeButton: {
-  //   position: 'absolute',
-  //   left: '91%',
-  //   top: '6%'
-  // }
+  ...theme.layout,
+  postscream:{
+    submitButton: {
+      position: 'relative',
+      float: 'right',
+      marginTop: 10
+    },
+    progressSpinner: {
+      position: 'absolute'
+    },
+    closeButton: {
+      position: 'absolute',
+      left: '91%',
+      top: '6%'
+    }
+  },
 });
 
 class PostScream extends Component {
