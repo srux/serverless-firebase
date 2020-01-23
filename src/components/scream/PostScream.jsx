@@ -16,7 +16,7 @@ import { connect } from 'react-redux';
 import { postScream, clearErrors } from '../../redux/actions/dataActions';
 
 const styles = (theme) => ({
-  ...theme.layout,
+  ...theme.layout.styles,
   postscream:{
     submitButton: {
       position: 'relative',

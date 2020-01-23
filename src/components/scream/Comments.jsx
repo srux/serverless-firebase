@@ -8,7 +8,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
 const styles = (theme) => ({
-  ...theme.layout,
+  ...theme.layout.styles,
   comments:{
     commentImage: {
       maxWidth: '100%',

@@ -22,7 +22,7 @@ import { connect } from 'react-redux';
 import { getScream, clearErrors } from '../../redux/actions/dataActions';
 
 const styles = (theme) => ({
-  ...theme.layout,
+  ...theme.layout.styles,
   dialog: {
     profileImage: {
       maxWidth: 200,

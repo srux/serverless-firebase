@@ -1,16 +1,16 @@
 export default {
   palette: {
     primary: {
-      light: '#33c9dc',
-      main: '#00bcd4',
-      dark: '#008394',
+      light: '#ededed',
+      main: '#111',
+      dark: '#333',
       contrastText: '#fff'
     },
     secondary: {
-      light: '#ff6333',
-      main: '#ff3d00',
-      dark: '#b22a00',
-      contrastText: '#fff'
+      light: '#cdcdcd',
+      main: '#dcdcdc',
+      dark: '#ededed',
+      contrastText: '#111'
     }
   },
   layout:{
@@ -24,6 +24,11 @@ export default {
       image: {
         margin: '20px auto 20px auto'
       },
+      logo:{
+        margin: '20px auto 20px auto',
+        maxWidth: '8em',
+        borderRadius: '.4em'
+      },
       pageTitle: {
         margin: '10px auto 10px auto'
       },
@@ -31,7 +36,8 @@ export default {
         margin: '10px auto 10px auto'
       },
       button: {
-        marginTop: 20,
+        margin: 20,
+        marginBottom: 20,
         position: 'relative'
       },
       customError: {

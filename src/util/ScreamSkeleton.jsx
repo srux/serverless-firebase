@@ -9,7 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 const styles = (theme) => ({
-  ...theme.layout,
+  ...theme.layout.styles,
   screamStyles: {
     card: {
       display: 'flex',

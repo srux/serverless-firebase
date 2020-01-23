@@ -15,7 +15,7 @@ import { connect } from 'react-redux';
 import { signupUser } from '../redux/actions/userActions';
 
 const styles = (theme) => ({
-  ...theme.layout
+  ...theme.layout.styles
 });
 
 class signup extends Component {
@@ -63,7 +63,7 @@ class signup extends Component {
       <Grid container className={classes.form}>
         <Grid item sm />
         <Grid item sm>
-          <img src={AppIcon} alt="monkey" className={classes.image} />
+          <img src={AppIcon} alt="monkey" className={classes.logo} />
           <Typography variant="h2" className={classes.pageTitle}>
             SignUp
           </Typography>
