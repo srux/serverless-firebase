@@ -1,0 +1,45 @@
+[debug] [2020-01-22T23:06:39.858Z] ----------------------------------------------------------------------
+[debug] [2020-01-22T23:06:39.861Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\samro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-22T23:06:39.861Z] CLI Version:   7.12.0
+[debug] [2020-01-22T23:06:39.861Z] Platform:      win32
+[debug] [2020-01-22T23:06:39.861Z] Node Version:  v13.5.0
+[debug] [2020-01-22T23:06:39.862Z] Time:          Thu Jan 23 2020 12:06:39 GMT+1300 (New Zealand Daylight Time)
+[debug] [2020-01-22T23:06:39.863Z] ----------------------------------------------------------------------
+[debug] [2020-01-22T23:06:39.863Z] 
+[debug] [2020-01-22T23:06:39.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-22T23:06:39.876Z] > authorizing via signed-in user
+[debug] [2020-01-22T23:06:39.876Z] [iam] checking project serverlessfirebase for permissions ["firebase.projects.get"]
+[debug] [2020-01-22T23:06:39.878Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/serverlessfirebase:testIamPermissions  
+
+[debug] [2020-01-22T23:06:41.281Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-22T23:06:41.284Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/serverlessfirebase  
+ 
+[debug] [2020-01-22T23:06:41.819Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Github\serverless-firebase'...
+[info] 
+[debug] [2020-01-22T23:06:41.827Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/serverlessfirebase/webApps/-/config  
+ 
+[debug] [2020-01-22T23:06:42.873Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "13"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Github\serverless-firebase\functions" for Cloud Functions...
+[debug] [2020-01-22T23:06:44.376Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-22T23:06:44.376Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-01-22T23:06:44.376Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-22T23:06:44.377Z] [worker-~diagnostic~-7293063c-601a-4f4e-9236-1fdb2a6af692]: Assigning socketPath: \\?\pipe\C:\Github\serverless-firebase\functions\9452
+[debug] [2020-01-22T23:06:44.377Z] [worker-~diagnostic~-7293063c-601a-4f4e-9236-1fdb2a6af692]: BUSY
+[debug] [2020-01-22T23:06:44.945Z] [runtime-status] [9452] Functions runtime initialized. {"cwd":"C:\\Github\\serverless-firebase\\functions","node_version":"13.5.0"}
+[debug] [2020-01-22T23:06:44.945Z] [runtime-status] [9452] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-01-22T23:06:44.952Z] [runtime-status] [9452] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.0","resolution":"C:\\Github\\serverless-firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-22T23:06:44.955Z] [runtime-status] [9452] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Github\\serverless-firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-22T23:06:44.956Z] [runtime-status] [9452] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Github\\serverless-firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[api]: http function initialized (http://localhost:5001/serverlessfirebase/asia-east2/api).
+[info] i  functions[createNotificationOnLike]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[deleteNotificationOnUnLike]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[createNotificationOnComment]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[onUserImageChange]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[onScreamDelete]: function ignored because the firestore emulator does not exist or is not running.
+[debug] [2020-01-22T23:06:46.134Z] [worker-~diagnostic~-7293063c-601a-4f4e-9236-1fdb2a6af692]: IDLE
