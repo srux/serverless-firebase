@@ -26,7 +26,7 @@ export default {
       },
       logo:{
         margin: '20px auto 20px auto',
-        maxWidth: '8em',
+        maxWidth: '6em',
         borderRadius: '.4em'
       },
       pageTitle: {

@@ -8,8 +8,9 @@ body {
 $lighttext:#fff;
 
 .container {
-    margin:8em auto 0 auto;
+    margin:5em auto 0 auto;
     max-width: 1200px;
+    padding: 1em;
 }
 
 .nav-container {
@@ -23,7 +24,10 @@ $lighttext:#fff;
       }
 }
 
-.login-image-76 {
-    max-width: 8em;
-    border-radius:.5em;
+
+#likeButton {
+    padding-left:0 !important;
 }
+// .gridContainer {
+//     margin:2em;
+// }

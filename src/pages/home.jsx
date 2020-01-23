@@ -21,7 +21,7 @@ class home extends Component {
       <ScreamSkeleton />
     );
     return (
-      <Grid container spacing={10}>
+      <Grid container spacing={5} className="gridContainer">
         <Grid item sm={8} xs={12}>
           {recentScreamsMarkup}
         </Grid>

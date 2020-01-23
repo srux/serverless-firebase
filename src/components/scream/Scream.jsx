@@ -28,9 +28,8 @@ const styles = {
     minWidth: 200
   },
   content: {
-    padding: 25,
-    objectFit: 'cover'
-  }
+    objectFit: 'cover',
+  },
 };
 
 class Scream extends Component {
